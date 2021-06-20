@@ -3,7 +3,7 @@
 var myname;
 var connectedUser;
 
-var conn = new WebSocket('ws://65.49.210.31:9090');
+var conn = new WebSocket('wss://video.rmlee.org/wss');
 
 conn.onopen = ()=>{
     console.log("Connected to the signaling server");
